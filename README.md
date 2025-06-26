@@ -1,2 +1,27 @@
-# -ADOFAI-Verbatim-Subtitle-Maker-
-这是一个为ADOFAI设计的的逐字字幕制作器/This is the Verbatim Subtitle Maker for ADOFAI
+# ADOFAI逐字字幕制作器
+
+这是一款用于为《冰与火之舞》游戏制作逐字字幕的工具，支持可视化编辑和导出功能。
+
+## 功能特性
+
+- 支持字幕逐字显示效果
+- 导出为.adofai格式文件
+- 简洁易用的界面
+
+## 运行要求
+- Python 3.7+
+- 依赖库：adobase，tkinter
+
+## 安装方法
+- 不需要安装，在releases中下载打开即可
+## 使用方法
+1. 在ADOFAI铺面中新建文字装饰，添加标签，并保存
+
+2. 打开工具，选择.adofai文件，调整基本参数和需要达到逐字效果的文字，点击生成，文件会自动保存在与你选择的文件相同的目录下
+
+- 注意：不填写输出文件名将自动保存为 [原文件名]_output.adofai
+
+
+## 开源协议
+
+[MIT License](LICENSE)
