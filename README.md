@@ -168,30 +168,6 @@ InOutElastic | InOutFlash
 └── images/                        # 资源目录
 ```
 
-## 🔧 开发指南
-
-### 运行开发版本
-```bash
-# 克隆仓库
-git clone https://github.com/your-repo/adofai-subtitle-generator.git
-
-# 进入目录
-cd adofai-subtitle-generator
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 运行程序
-python ADOFAI逐子字幕制作器_GUI.py
-```
-
-### 打包为可执行文件
-```bash
-pip install pyinstaller
-
-pyinstaller --onefile --windowed ADOFAI逐子字幕制作器_GUI.py
-```
-
 
 ## 📄 许可证
 
@@ -201,4 +177,5 @@ pyinstaller --onefile --windowed ADOFAI逐子字幕制作器_GUI.py
 ---
 
 **Enjoy creating amazing subtitles for your ADOFAI levels! 🎵**
+
 
