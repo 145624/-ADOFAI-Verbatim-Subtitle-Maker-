@@ -9,6 +9,10 @@
 
 一个用于制作《冰与火之舞》(ADOFAI) 游戏逐字字幕的可视化工具。
 
+## 注意事项
+
+如果关卡中含有非标准控制字符，显示读取失败，可以先创建新关卡然后把字幕复制进去
+
 ## 📺 预览
 
 ```
@@ -197,3 +201,4 @@ pyinstaller --onefile --windowed ADOFAI逐子字幕制作器_GUI.py
 ---
 
 **Enjoy creating amazing subtitles for your ADOFAI levels! 🎵**
+
